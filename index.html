@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Versículo - Bíblia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Versículo</h1>
+        <div class="entrada_dados">
+            <label for="versiculo">Versículo:</label>
+            <input type="text" id="versiculo" placeholder="Exemplo: john 3:16">
+            <select id="versao">
+                <option value="almeida">Almeida</option>
+                <option value="web">WEB</option>
+            </select>
+            <button class="btn" onclick="buscarVersiculo()">Buscar</button>
+        </div>
+        <div id="resultado">
+            <!-- Os resultados da busca serão exibidos aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

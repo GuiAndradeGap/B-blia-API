@@ -1,0 +1,119 @@
+/* Estilo geral */
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #2980b9;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Estilização da área de entrada de dados */
+.entrada_dados {
+    margin-bottom: 30px;
+}
+
+.entrada_dados label {
+    font-size: 1.2em;
+    margin-right: 15px;
+    color: #34495e;
+}
+
+.entrada_dados input {
+    font-size: 1.1em;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #b0bec5;
+    width: 250px;
+    margin-right: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.entrada_dados select {
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #b0bec5;
+    background-color: #ecf0f1;
+    margin-right: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.entrada_dados button {
+    font-size: 1.1em;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2980b9;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.entrada_dados button:hover {
+    background-color: #1b4f72;
+}
+
+/* Resultado do versículo */
+#resultado {
+    margin-top: 30px;
+    text-align: left;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#resultado h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+#resultado p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Estilização das mensagens de erro */
+#erro, #sucesso {
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: none; /* Inicialmente escondido */
+}
+
+#erro {
+    color: #e74c3c;
+    background-color: #fdecea;
+}
+
+#sucesso {
+    color: #27ae60;
+    background-color: #eafaf1;
+}
